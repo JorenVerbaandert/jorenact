@@ -9,5 +9,8 @@
     "react-native": "*",
     "react-native-svg": "*",
     "metro-config": "*"
+  },
+  "scripts": {
+    "install": "cd ../.. && npm install"
   }
 }
