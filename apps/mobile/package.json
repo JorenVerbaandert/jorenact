@@ -11,6 +11,7 @@
     "metro-config": "*"
   },
   "scripts": {
-    "install": "cd ../.. && npm install"
+    "install": "cd ../.. && npm install",
+    "postinstall": "nx run ensure-symlink"
   }
 }
